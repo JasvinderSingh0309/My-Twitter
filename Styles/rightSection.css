@@ -1,0 +1,204 @@
+.right-section{
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	width:420px;
+
+	display:flex;
+	flex-direction:column;
+
+	z-index:10;
+}
+.right-section-search{
+	display:flex;
+	align-items:center;
+	height:45px;
+	margin:5px 30px;
+	padding-left:20px;
+	background-color:#E3E3E3;
+	border-radius:70px;
+}
+	.right-section-search:hover,
+	input:hover,
+	.subbut:hover,
+	.Fbut:hover,
+	.SM:hover{
+		cursor:pointer;
+	}
+	.RSsearchicon{
+		width:20px;
+		height:20px;
+	}
+	.RSsearchbar{
+		padding-left:20px;
+		font:normal 16px roboto;
+		border:none;
+		background-color:#E3E3E3;
+	}
+	::placeholder{
+		color:black;
+	}
+.Subscride{
+	display:flex;
+	flex-direction:column;
+	background-color:#E3E3E3;
+	margin:30px;
+	padding:12px 20px;
+	border-radius:15px;
+}
+	.premium{
+		font:700 21px roboto;
+	}
+	.sub-details{
+		font:500 16px roboto;
+		margin-top:14px;
+		line-height:21.5px;
+	}
+	.subbut{
+		padding:10px;
+		width:105px;
+		margin-top:8px;
+		border:none;
+		border-radius:70px;
+		background-color:black;
+		color:white;
+		font:500 15px roboto;
+	}
+.most-used-accounts{
+	display:flex;
+	flex-direction:column;
+	box-shadow:0 0 5px 1px #A5A5A5;
+	margin:0 30px;
+	border-radius:15px;
+	padding:15px;
+}
+	.WtoF{
+		font:700 19px roboto;
+		letter-spacing:0.05em;
+		margin-bottom:8px;
+	}
+	.recommend{
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		margin:10px 0;
+	}
+	.recommend-details{
+		display:flex;
+		align-items:center;
+	}
+	.rec-det{
+		margin-left:5px;
+		line-height:14px;
+	}
+	.ACC-name{
+		display:flex;
+	}
+	.AcC{
+		font:500 16px roboto;
+	}
+	.at{
+		font:normal 15px roboto;
+		color:#7A7A7A;
+	}
+	.SM{
+		color:#41A0E9;
+		margin-top:8px;
+		margin-left:5px;
+	}
+	.Fbut{
+		font:500 15px roboto;
+		padding:5px 12px;
+		background-color:black;
+		color:white;
+		border:none;
+		border-radius:50px;
+	}
+
+.Piic{
+	position:relative;
+}
+.DDD{
+	position:absolute;
+	right:50px;
+	bottom:5px;
+	height:40px;
+	width:40px;
+	border-radius:50%;
+	background-color:red;
+
+	opacity:0;
+
+	pointer-events:none;
+}
+.Piic:hover .DDD{
+	opacity:1;
+}
+	@media (max-width:1274px){
+		.right-section{
+			position:fixed;
+			top:0;
+			bottom:0;
+			left:0;
+			width:200px;
+		}
+	}
+	@media (min-width:1275px) and (max-width:1295px){
+		.right-section{
+			width:320px;
+		}
+		.right-section-search{
+			margin:5px 15px;
+		}
+		.Subscride{
+			margin:30px 15px;
+		}	
+		.most-used-accounts{
+			margin:0 15px;
+		}
+	}
+	@media (min-width:1296px) and (max-width:1310px){
+		.right-section{
+			width:340px;
+		}
+		.right-section-search{
+			margin:5px 15px;
+		}
+		.Subscride{
+			margin:30px 15px;
+		}	
+		.most-used-accounts{
+			margin:0 15px;
+		}
+	}
+	@media (min-width:1311px) and (max-width:1330px){
+		.right-section{
+			width:360px;
+		}
+		.right-section-search{
+			margin:5px 15px;
+		}
+		.Subscride{
+			margin:30px 15px;
+		}	
+		.most-used-accounts{
+			margin:0 15px;
+		}
+	}
+	@media (min-width:1331px) and (max-width:1350px){
+		.right-section{
+			width:380px;
+		}
+		.right-section-search{
+			margin:5px 15px;
+		}
+		.Subscride{
+			margin:30px 15px;
+		}	
+		.most-used-accounts{
+			margin:0 15px;
+		}
+	}
+
+
