@@ -34,6 +34,7 @@
 		padding-left:20px;
 		font:normal 16px roboto;
 		border:none;
+		outline:none;
 		background-color:#E3E3E3;
 	}
 	::placeholder{
